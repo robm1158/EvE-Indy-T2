@@ -46,7 +46,7 @@ print(list_of_hashes)
 marketurl = "https://api.evemarketer.com/ec/marketstat/json?typeid=&regionlimit={}10000002"
 ids = {} #mat to id
 
-with open(r'typeids.csv') as file:
+with open(r'g:\Python Eve Sheets\EvE-Indy\typeids.csv') as file:
     reader = csv.reader(file, delimiter=',')
     for row in reader:
         ids[row[1]] = row[0]
